@@ -3,6 +3,7 @@
 
 require_relative "en14960_assessments/version"
 require_relative "en14960_assessments/engine"
+require_relative "en14960_assessments/seed_data"
 
 module En14960Assessments
   class Error < StandardError; end
