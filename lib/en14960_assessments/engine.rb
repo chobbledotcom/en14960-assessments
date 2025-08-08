@@ -19,6 +19,7 @@ module En14960Assessments
     config.i18n.load_path += Dir[locale_path]
 
     # Autoload paths
+    config.autoload_paths << Engine.root.join("app", "models")
     config.autoload_paths << Engine.root.join("app", "models", "concerns")
     config.autoload_paths << Engine.root.join("app", "controllers", "concerns")
     config.autoload_paths << Engine.root.join("app", "services")

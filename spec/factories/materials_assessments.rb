@@ -33,7 +33,7 @@
 #
 
 FactoryBot.define do
-  factory :materials_assessment, class: "Assessments::MaterialsAssessment" do
+  factory :materials_assessment, class: "En14960Assessments::MaterialsAssessment" do
     association :inspection
 
     # Material specifications (defaults to nil for tests to control)

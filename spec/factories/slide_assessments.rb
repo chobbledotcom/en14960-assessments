@@ -33,7 +33,7 @@
 #
 
 FactoryBot.define do
-  factory :slide_assessment, class: "Assessments::SlideAssessment" do
+  factory :slide_assessment, class: "En14960Assessments::SlideAssessment" do
     association :inspection
 
     # Minimal defaults to allow tests to control values

@@ -32,7 +32,7 @@
 #
 
 FactoryBot.define do
-  factory :user_height_assessment, class: "Assessments::UserHeightAssessment" do
+  factory :user_height_assessment, class: "En14960Assessments::UserHeightAssessment" do
     association :inspection
 
     containing_wall_height { nil }

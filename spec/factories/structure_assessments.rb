@@ -54,7 +54,7 @@
 #
 
 FactoryBot.define do
-  factory :structure_assessment, class: "Assessments::StructureAssessment" do
+  factory :structure_assessment, class: "En14960Assessments::StructureAssessment" do
     association :inspection
 
     # Helper to set all critical safety checks
