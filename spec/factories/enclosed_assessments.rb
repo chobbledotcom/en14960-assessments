@@ -21,7 +21,7 @@
 #
 
 FactoryBot.define do
-  factory :enclosed_assessment, class: "Assessments::EnclosedAssessment" do
+  factory :enclosed_assessment, class: "En14960Assessments::EnclosedAssessment" do
     association :inspection
 
     exit_number { 2 }

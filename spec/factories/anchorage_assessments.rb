@@ -30,7 +30,7 @@
 #
 
 FactoryBot.define do
-  factory :anchorage_assessment, class: "Assessments::AnchorageAssessment" do
+  factory :anchorage_assessment, class: "En14960Assessments::AnchorageAssessment" do
     association :inspection
 
     # Anchor counts (defaults to nil for tests to control)

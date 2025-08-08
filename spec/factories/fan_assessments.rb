@@ -30,7 +30,7 @@
 #
 
 FactoryBot.define do
-  factory :fan_assessment, class: "Assessments::FanAssessment" do
+  factory :fan_assessment, class: "En14960Assessments::FanAssessment" do
     association :inspection
 
     # Default to nil for tests to control values
