@@ -48,37 +48,7 @@ Gem::Specification.new do |spec|
   # For image processing (Active Storage variants)
   spec.add_dependency "image_processing"
 
-  # Development dependencies
+  # Development dependencies - minimal since tests run from main app
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 13.0"
-
-  # Testing framework
-  spec.add_development_dependency "rspec-rails", "~> 6.0"
-  spec.add_development_dependency "factory_bot_rails", "~> 6.0"
-  spec.add_development_dependency "capybara", "~> 3.0"
-  spec.add_development_dependency "cuprite"
-  spec.add_development_dependency "rails-controller-testing", "~> 1.0"
-
-  # Code coverage
-  spec.add_development_dependency "simplecov", "~> 0.21"
-  spec.add_development_dependency "simplecov-cobertura"
-
-  # Test utilities
-  spec.add_development_dependency "pdf-inspector"
-  spec.add_development_dependency "parallel_tests"
-  spec.add_development_dependency "database_cleaner-active_record"
-  spec.add_development_dependency "rspec_junit_formatter"
-
-  # Code quality
-  spec.add_development_dependency "standard", "~> 1.0"
-  spec.add_development_dependency "standard-rails"
-  spec.add_development_dependency "erb_lint"
-  spec.add_development_dependency "better_html"
-
-  # For development database
-  spec.add_development_dependency "sqlite3", "~> 1.4"
-
-  # N+1 query detection
-  spec.add_development_dependency "prosopite"
-  spec.add_development_dependency "pg_query"
 end

@@ -10,6 +10,5 @@ gem "rake", "~> 13.0"
 # Development Rails app for testing
 gem "rails", "~> 8.0.0"
 
-group :development do
-  gem "rubocop", "~> 1.21"
-end
+# No additional development dependencies needed
+# Tests run from main app
