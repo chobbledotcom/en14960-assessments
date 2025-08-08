@@ -1,0 +1,6 @@
+# Configuration for StandardRB
+parallel: true
+format: progress
+
+ignore:
+  - 'db/migrate/**/*'

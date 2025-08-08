@@ -1,6 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
+require "sorbet-runtime"
 require_relative "en14960_assessments/version"
 require_relative "en14960_assessments/engine"
 require_relative "en14960_assessments/seed_data"

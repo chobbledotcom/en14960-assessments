@@ -1,0 +1,4 @@
+en:
+  assessments:
+    logging:
+      updated: "%{assessment_type} updated"
